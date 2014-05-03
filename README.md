@@ -14,7 +14,7 @@ The Steam.1 way:
 
 $steam = new Steam\Steam;
 $fetcher->get("friendlist", array("UserId" => "A-STEAM-USERID"), function($data){
-		// Do something with $data
+	// Do something with $data
 });
 
 
